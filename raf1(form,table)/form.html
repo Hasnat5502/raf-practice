@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <header>
+        <section>
+            <ul>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="panda.html">panda</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1>Please fill up the form</h1>
+            <form >
+                <label for="name">Your Name:
+                    <input type="text" placeholder="Name" name="" id="name"><br>
+                </label>
+                <label for="mail">Your Email:
+                    <input type="email" placeholder="Email" name="" id="mail"><br>
+                </label>
+                <label for="number">Your Phone:
+                    <input type="text" placeholder="Phone" name="" id="number">
+                </label>
+                <fieldset>
+                    <legend>Select Rice</legend>
+                    <label for="normal-rice">
+                        <input type="radio" name="food" id="normal-rice">Normal-Rice
+                    </label>
+                    <label for="pulao">
+                        <input type="radio" name="food" id="pulao">Pulao
+                    </label>
+                    <label for="bashmati">
+                        <input type="radio" name="food" value="bashmati">Bashmati
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select 1 or more </legend>
+                    <label for="chicken">
+                        <input type="checkbox" name="" id="chicken">Chicken
+                    </label>
+                    <label for="beef">
+                        <input type="checkbox" name="" id="beef">Beef
+                    </label>
+                    <label for="mutton">
+                        <input type="checkbox" name="" id="mutton">Mutton
+                    </label>
+                </fieldset>
+                <section class="last">
+                    <label for="reset">
+                        <input type="reset" value="Reset">
+                    </label>
+                    <label for="submit">
+                        <input type="submit" name="" value="Submit">
+                    </label>
+                </section>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

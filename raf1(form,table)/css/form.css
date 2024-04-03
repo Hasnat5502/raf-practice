@@ -1,0 +1,58 @@
+body{
+    background-color: beige;
+}
+
+main>section{
+    margin-top: 40px;
+}
+main section h1{
+    margin-left: 20px;
+    text-align: center;
+}
+main >section >form >label{
+    display:flex ;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+main >section >form >label>input:hover{
+    background-color: orange;
+    color: black;
+}
+
+fieldset{
+    height: 80px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border-color: orange;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset>legend{
+    text-align: center;
+    color: brown;
+}
+input{
+    accent-color: orange;
+    margin: 20px;
+}
+.last{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last>label>input{
+    height: 30px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: orange;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
